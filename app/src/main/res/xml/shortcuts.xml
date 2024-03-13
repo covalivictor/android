@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut_register"
+        android:enabled="true"
+        android:icon="@drawable/ic_register"
+        android:shortcutShortLabel="@string/shortcut_register_short_label"
+        android:shortcutLongLabel="@string/shortcut_register_long_label"
+        android:shortcutDisabledMessage="@string/shortcut_register_disabled_message"
+        tools:ignore="UnusedAttribute">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.app"
+            android:targetClass="com.example.app.RegisterActivity" />
+    </shortcut>
+    <!-- Alte comenzi rapide pot fi adăugate aici -->
+</shortcuts>
